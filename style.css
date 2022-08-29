@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+    font-size: 17px;
+}
+.container {
+    width: 85%;
+    margin: auto;
+}
+.list-unstyled {list-style-type: none;}
+.clear-fix {clear: both;}
+/* start landing section */
+.landing {
+    background-image: url(images/landing.jpg);
+    background-size: 100% 100%;
+    /* background-size: cover; */
+    height: 100vh;
+}
+.landing .nav-bar img {
+    width: 200px;
+    margin-top: 20px;
+}
+.landing .nav-bar ul {float: right;}
+.landing .nav-bar ul li {
+    color: white;
+    font-size: 20px;
+    float: left;
+    padding: 20px;
+}
+.landing .text {
+    color: #fff;
+    text-align: center;
+    margin-top: 145px;
+}
+.landing .text p {font-size: 25px;}
+.landing .text h1 {
+    font-size: 50px;
+    margin: 20px 0;
+}
+.landing .text button {
+    padding: 15px 28px;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 20px 5px;
+}
+.landing .text button.btn-1 {
+    background-color: #8e7754;
+    border: 2px solid transparent;
+}
+.landing .text button.btn-2 {
+    background-color: transparent;
+    border: 2px solid #fff;
+}
+/* End landing section */
+/* start Who we are section */
+.who {margin: 80px 0;}
+.who .who-img,
+.who .who-text {
+    width: 50%;
+    float: left;
+}
+.who .who-img img {
+    max-width: 90%;
+    height: 400px;
+}
+.who .who-text p {line-height: 1.8;}
+.who .who-text ul.icon-list {padding: 0;}
+.who .who-text ul.icon-list li img {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #ddcccc;
+    padding: 10px;
+    border-radius: 100%;
+}
+.who .who-text .icon-list-text {
+    vertical-align: top;
+    display: inline-block;
+    margin: 15px 0 20px 15px;
+}
+/* End Who we are section */
+/* start location */
+.location {
+    margin: 80px 0;
+    background-color: #F8F8F8;
+    padding: 35px;
+}
+.location .location-text,
+.location .location-img {
+    width: 50%;
+    float: left;
+}
+.location .location-img img {
+    max-width: 90%;
+    margin-top: 45px;
+}
+.location .location-text h2 {margin-bottom: 25px;}
+.location .location-text p {line-height: 1.8;}
+.location .location-img {text-align: right;}
+.location .location-text {margin-top: 50px;}
+/* End location */
+/* start our-baking  */
+.our-baking {
+    margin: 80px 0;
+    text-align: center;
+    color: #888
+}
+.our-baking h2 {
+    color: black;
+    font-size: 30px;
+}
+.our-baking .baking-items {margin-top: 50px;}
+.our-baking .baking-item {
+    width: 33.33%;
+    float: left;
+}
+.our-baking .baking-item img {max-width: 90%;}
+.our-baking .baking-item p {line-height: 1.8;}
+/* End our-baking  */
+/* start contact  */
+.contact {
+    /* margin: 80px 0; */
+    background-color: #F8F8F8;
+    padding: 60px 0;
+    color: #888
+}
+.contact .contact-text,
+.contact .contact-map {
+    width: 50%;
+    float: left;
+}
+.contact .contact-text h2 {
+    color: #000;
+}
+.contact .contact-text p {line-height: 1.8;}
+.contact .contact-text ul.icon-list {padding: 0;}
+.contact .contact-text ul.icon-list li img {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+    border-radius: 100%;
+    background-color: #8e7754;
+    border: 2px solid transparent;
+}
+.contact .contact-text .icon-list-text {
+    vertical-align: top;
+    display: inline-block;
+    margin: 15px 0 35px 15px;
+}
+.contact .contact-map {text-align: right;}
+/* End contact  */
+/* start top-footer  */
+.top-footer {
+    padding: 80px 0;
+    color: #969696;
+    background-color: #403D38;
+}
+.top-footer .box {
+    width: 25%;
+    float: left;
+}
+.top-footer .box h4 {
+    color: #fff;
+    font-size: 18px;
+}
+.top-footer .box p {line-height: 1.8;}
+.top-footer .box ul {
+    padding-right: 20px;
+    padding-left: 0;
+}
+.top-footer .box ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+.top-footer .box .foot-icon img {
+    width: 15px;
+    height: 15px;
+    padding: 10px;
+}
+.top-footer .box .foot-icon .icon-list-text {
+    vertical-align: top;
+    display: inline-block;
+    margin: 10px 0 20px 10px;
+    width: 170px;
+}
+.top-footer .box .foot-icon li {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+/* End top-footer  */
+/* start bottom-footer */
+.bottom-footer {
+    background-color: #353330;
+    text-align: center;
+    padding: 80px 0;
+    color: #777;
+}
+.bottom-footer a {margin-right: 5px;}
+/* End bottom-footer */
